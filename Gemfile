@@ -27,7 +27,7 @@ gem "stimulus-rails"
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
 
-
+gem 'rake', '13.0.6'
 
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
@@ -44,8 +44,19 @@ gem "tzinfo-data"
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
 
+# Bootstrap for layout
+gem 'bootstrap', '~> 5.3.2'
+
+# Bootstrap JavaScript
+gem 'jquery-rails'
+
+# Popper para o Bootstrap JavaScript
+gem 'popper_js', '~> 2.11.8'
+
+gem 'devise'
+
 # Use Sass to process CSS
-# gem "sassc-rails"
+gem "sassc-rails"
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
